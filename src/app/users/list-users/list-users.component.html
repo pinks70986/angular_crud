@@ -1,0 +1,9 @@
+
+<ul>
+    
+        <li *ngFor="let user of listUsers.data">>
+           {{user.first_name}}| <a  [routerLink]="['edit',user.id]">Edit</a>| <a  [routerLink]="['view',user.id]">View</a>
+        </li>
+    
+
+</ul>
